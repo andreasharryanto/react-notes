@@ -1,0 +1,3 @@
+npx create-react-app react-notes
+npm start
+npm install axios
