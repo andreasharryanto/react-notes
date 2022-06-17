@@ -3,6 +3,11 @@ import './App.css';
 import UseStateTutorial from './hooks/UseStateTutorial';
 import UseReducerTutorial from './hooks/UseReducerTutorial';
 import UseEffectTutorial from './hooks/UseEffectTutorial';
+import UseRefTutorial from './hooks/UseRefTutorial';
+import UseLayoutEffectTutorial from './hooks/UseLayoutEffectTutorial';
+import UseImperativeHandleTutorial from './hooks/UseImperativeHandle/UseImperativeHandleTutorial';
+import UseContextTutorial from './hooks/UseContext/UseContextTutorial';
+import UseMemoTutorial from './hooks/UseMemoTutorial';
 
 function App() {
   return (
@@ -24,8 +29,13 @@ function App() {
     // </div>
 
     // <UseStateTutorial />
-    <UseReducerTutorial />
+    // <UseReducerTutorial />
     // <UseEffectTutorial />
+    // <UseRefTutorial />
+    // <UseLayoutEffectTutorial />
+    // <UseImperativeHandleTutorial />
+    // <UseContextTutorial />
+    <UseMemoTutorial />
   );
 }
 

@@ -1,0 +1,5 @@
+npx create-react-app react-notes
+npm start
+npm install axios
+
+source: https://www.youtube.com/watch?v=LlvBzyy-558&list=PLkr4hVqzVoC7lP3LX74gDfww5PSLqVJ3q&index=1&t=2861s&ab_channel=PedroTech

@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const UseEffectTutorial = () => {
+function UseEffectTutorial() {
+    const [data, setData] = useState("");
+    const [count, setCount] = useState(0);
+
+    useEffect(() => {
+        axios.get("https://jsonplaceholder.typicode.com/comments")
+            .then((response) => {
+                console.log(response);
+                setData(response.data[0].email);
+            });
+    }, [count]);
 
     return (
-        <div>adf</div>
+        <div>
+            <div>hello world {data}</div>
+            <h1>{count}</h1>
+            <button onClick={() => setCount(count + 1)}>
+                add
+            </button>
+        </div>
     );
 }
 
