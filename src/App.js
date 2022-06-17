@@ -8,6 +8,7 @@ import UseLayoutEffectTutorial from './hooks/UseLayoutEffectTutorial';
 import UseImperativeHandleTutorial from './hooks/UseImperativeHandle/UseImperativeHandleTutorial';
 import UseContextTutorial from './hooks/UseContext/UseContextTutorial';
 import UseMemoTutorial from './hooks/UseMemoTutorial';
+import UseCallBackTutorial from './hooks/UseCallback/UseCallbackTutorial';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
     // <UseLayoutEffectTutorial />
     // <UseImperativeHandleTutorial />
     // <UseContextTutorial />
-    <UseMemoTutorial />
+    // <UseMemoTutorial />
+    <UseCallBackTutorial />
   );
 }
 
